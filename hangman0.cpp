@@ -110,7 +110,7 @@ string update(char guess, string guessedWord, string secretword){
 
 }//
 
-string chooseWord(){//dung
+string chooseWord(){//
 	const string wordList[]={"cherished","friend","joyful"};
 	srand(time(0));
 	return wordList[rand()%3];
